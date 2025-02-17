@@ -2,6 +2,8 @@
 
 TwitDloader 是一个浏览器扩展，允许用户一键下载 Twitter/X 平台的高清视频，支持多种视频分辨率选择。该扩展还支持多语言界面，提供简洁直观的操作体验，并允许用户自定义界面主题颜色。
 
+![](https://picx.zhimg.com/80/v2-99e6fad0c43e09d14fa880db37d3a6fd_1440w.jpeg)
+
 ## **主要功能**
 
 - 一键下载 Twitter/X 平台的高清视频
@@ -52,6 +54,10 @@ TwitDloader 是一个浏览器扩展，允许用户一键下载 Twitter/X 平台
 2. 打开浏览器的扩展管理页面。
 3. 在 Chrome 中，输入 `chrome://extensions/`，然后点击“加载已解压的扩展程序”，选择解压后的文件夹进行安装。
 4. 安装成功后，访问任意 Twitter/X 视频页面，点击解析按钮即可下载视频。
+
+![](https://pic1.zhimg.com/80/v2-001090099746f56350b3e469f569e892_1440w.jpeg)
+![](https://picx.zhimg.com/80/v2-cf9a628a42c84141c964c7430bd5e15b_1440w.jpeg)
+![](https://picx.zhimg.com/80/v2-37acb143a6f947a1715f96f24729c632_1440w.jpeg)
 
 ## **开发与贡献**
 
