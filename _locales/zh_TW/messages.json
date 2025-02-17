@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "twitdloader",
+    "description": "擴展名稱"
+  },
+  "extDesc": {
+    "message": "一鍵下載高清推特視頻，支持多種解析度",
+    "description": "擴展描述"
+  },
+  "settings": {
+    "message": "設置",
+    "description": "設置頁面標題"
+  }
+} 

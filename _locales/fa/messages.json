@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "twitdloader",
+    "description": "نام افزونه"
+  },
+  "extDesc": {
+    "message": "دانلود ویدیوهای توییتر با کیفیت بالا با یک کلیک، پشتیبانی از وضوح‌های مختلف",
+    "description": "توضیحات افزونه"
+  },
+  "settings": {
+    "message": "تنظیمات",
+    "description": "عنوان صفحه تنظیمات"
+  }
+} 

@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "twitdloader",
+    "description": "Nome da extensão"
+  },
+  "extDesc": {
+    "message": "Baixe vídeos do Twitter em alta qualidade com várias opções de resolução",
+    "description": "Descrição da extensão"
+  },
+  "settings": {
+    "message": "Configurações",
+    "description": "Título da página de configurações"
+  }
+} 

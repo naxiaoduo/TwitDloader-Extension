@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>twitdloader</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 250px;
+            padding: 15px;
+            background-color: #f0f2f5;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #1DA1F2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        button i {
+            margin-right: 8px;
+        }
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 24px;
+            margin-bottom: 10px;
+        }
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 24px;
+        }
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 16px;
+            width: 16px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+        input:checked + .slider {
+            background-color: #1DA1F2;
+        }
+        input:not(:checked) + .slider {
+            background-color: #657786;
+        }
+        input:checked + .slider:before {
+            transform: translateX(26px);
+        }
+        .switch-description {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #657786;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 12px;
+            color: #657786;
+        }
+        .footer a {
+            color: #1DA1F2;
+            text-decoration: none;
+        }
+        .settings-button {
+            background: none;
+            border: none;
+            color: #1DA1F2;
+            cursor: pointer;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <button id="parseButton"><i class="fas fa-magic"></i> <span data-i18n="parseButton"></span></button>
+    </div>
+    <div class="card">
+        <label class="switch">
+            <input type="checkbox" id="pageButtonToggle">
+            <span class="slider"></span>
+        </label>
+        <div class="switch-description" data-i18n="showPageButton"></div>
+        <button class="settings-button" id="settingsButton">
+            <i class="fas fa-cog"></i> <span data-i18n="settings"></span>
+        </button>
+    </div>
+    <div class="footer">
+        <a href="https://twitdloader.toolooz.com" target="_blank" data-i18n="relatedWebsite"></a> |
+        <a href="https://freedownloaderlist.productlatest.com" target="_blank" data-i18n="sponsor"></a>
+    </div>
+    <script src="js/languages.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="popup.js"></script>
+    <script src="theme.js"></script>
+</body>
+</html>

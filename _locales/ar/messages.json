@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "twitdloader",
+    "description": "اسم الإضافة"
+  },
+  "extDesc": {
+    "message": "تحميل فيديوهات تويتر عالية الجودة بنقرة واحدة، مع دعم دقة متعددة",
+    "description": "وصف الإضافة"
+  },
+  "settings": {
+    "message": "الإعدادات",
+    "description": "عنوان صفحة الإعدادات"
+  }
+} 

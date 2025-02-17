@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "twitdloader",
+    "description": "拡張機能名"
+  },
+  "extDesc": {
+    "message": "高画質のTwitter動画を簡単ダウンロード、複数の解像度に対応",
+    "description": "拡張機能の説明"
+  },
+  "settings": {
+    "message": "設定",
+    "description": "設定ページのタイトル"
+  }
+} 

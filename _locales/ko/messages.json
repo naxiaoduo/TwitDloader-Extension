@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "twitdloader",
+    "description": "확장 프로그램 이름"
+  },
+  "extDesc": {
+    "message": "고화질 트위터 동영상 원클릭 다운로드, 다양한 해상도 지원",
+    "description": "확장 프로그램 설명"
+  },
+  "settings": {
+    "message": "설정",
+    "description": "설정 페이지 제목"
+  }
+} 
